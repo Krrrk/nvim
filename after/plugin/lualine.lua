@@ -1,0 +1,6 @@
+require('lualine').setup {
+    sections = {
+        lualine_c = {{'filename', file_status = true, path = 2}},
+        lualine_x = {'store', 'encoding', 'fileformat', 'filetype'}
+    }
+}
